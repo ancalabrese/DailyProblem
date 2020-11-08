@@ -12,10 +12,10 @@
 
 # Try to do it in a single pass of the list.
 
-#Proposed Solution:
+#Proposed Solution: O(n)
 # For each number in the list get the complementary betewen target and number c= k-list[i]
 # Add d to a second list of "required numbers"
-# At each step check if list[i] is in required if not add c to required list otherwise return true
+# At each step check if list[i] is in required if not add n to required list otherwise return true
 
 
 def printTwoSum(numbers, target):
