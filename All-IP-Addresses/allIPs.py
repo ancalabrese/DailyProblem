@@ -13,6 +13,9 @@
 # print ip_addresses('1592551013')
 # # ['159.255.101.3', '159.255.10.13']
 
+# Solution: O(n3) where n cannot be greater than 12
+# The approach insert dots in the provided string and then tries all the combination checking if ip parts could be valid 
+
 
 def isValid(ip):
 	ip = ip.split(".")
